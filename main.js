@@ -10,9 +10,15 @@ buttons.map(button => {
             case "←":
                 display.value = display.value.slice(0, -1)
                 break;
-            case "=":
-                display.value = eval(display.value)
+            case "√":
+                display.value = Math.sqrt(display.value);
                 break;
+            case "=":
+                    display.value = eval(display.value)
+                    break;
+            case "SQR":
+                    display.value = display.value * display.value
+                    break;
             default:
                 display.value += e.target.innerText;
         }

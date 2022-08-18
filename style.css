@@ -19,6 +19,7 @@ input{
     font-family: arial;
     font-weight: bolder;
     text-align: right;
+    padding: 5px 0px;
 }
 .result{
     text-align: center;
